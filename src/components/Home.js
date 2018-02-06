@@ -1,5 +1,6 @@
 import React from 'react'
-import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
+import { Sidebar, Segment, Button, Menu, Icon } from 'semantic-ui-react'
+import MenuButton from './MenuButton'
 
 class Home extends React.Component {
 
@@ -11,7 +12,7 @@ class Home extends React.Component {
     const { visible } = this.state
     return (
       <div>
-        <Button onClick={this.toggleVisibility}>Toggle Visibility</Button>
+        <MenuButton toggleVisibility={this.toggleVisibility}/>
         <Sidebar.Pushable as={Segment}>
           <Sidebar as={Menu} animation='push' width='thin' visible={visible} icon='labeled' vertical inverted>
             <Menu.Item name='home'>
