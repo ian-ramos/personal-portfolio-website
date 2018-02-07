@@ -1,12 +1,12 @@
 import React from 'react'
-import { Sidebar, Segment, Button, Menu, Icon } from 'semantic-ui-react'
+import TopSection from './TopSection'
 
 class Home extends React.Component {
 
   render() {
     return (
       <div>
-        Hi
+        <TopSection />
       </div>
     )
   }

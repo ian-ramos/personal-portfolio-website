@@ -26,3 +26,29 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* ----------------------------------------------- */
+/* REUSABLE */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* TOP SECTION */
+/* ----------------------------------------------- */
+
+.top-section-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/top-section-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* means it's 100% of the view port. If we didn't include this, part of image would be cut off b/c it would only fill-in where there was text*/
+  background-attachment: fixed;
+}
+
+.top-section-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+}
