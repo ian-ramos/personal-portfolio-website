@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route path='/' render={(props) => <NavBar {...props} />}/>
+        {/*<Route path='/' render={(props) => <NavBar {...props} />}/>*/}
         <Route exact path="/" render={(props) => <Home {...props} />} />
       </div>
     );
