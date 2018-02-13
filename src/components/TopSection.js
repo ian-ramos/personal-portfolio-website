@@ -10,8 +10,8 @@ class TopSection extends React.Component {
         <div className='top-section-text-box'>
           <h1>Welcome!</h1>
           <a className="btn btn-ghost" href="#AboutMe" >About Me</a>
-          <a className="btn btn-ghost" href="#" >Projects</a>
-          <a className="btn btn-ghost" href="#" >Contact Me</a>
+          <a className="btn btn-ghost" href="#Projects" >Projects</a>
+          <a className="btn btn-ghost" href="#ContactMe" >Contact Me</a>
         </div>
       </header>
     )
