@@ -8,9 +8,9 @@ class TopSection extends React.Component {
     return (
       <header className='top-section-bg'>
         <div className='top-section-text-box'>
-          <h1>Testing</h1>
-          <a class="btn btn-full" href="#" >I'm hungry</a>
-          <a class="btn btn-ghost" href="#" >Show me more</a>
+          <h1>Welcome!</h1>
+          <a className="btn btn-ghost" href="#" >I'm hungry</a>
+          <a className="btn btn-ghost" href="#" >Show me more</a>
         </div>
       </header>
     )
