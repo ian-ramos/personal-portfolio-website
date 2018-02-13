@@ -1,5 +1,6 @@
 import React from 'react'
 import TopSection from './TopSection'
+import AboutMe from './AboutMe'
 
 class Home extends React.Component {
 
@@ -7,6 +8,7 @@ class Home extends React.Component {
     return (
       <div>
         <TopSection />
+        <AboutMe />
       </div>
     )
   }
