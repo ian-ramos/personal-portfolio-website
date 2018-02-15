@@ -100,4 +100,11 @@ h1 {
 
 #about-me-text p {
   text-indent: 15px;
+  line-height: 145%;
+}
+
+#about-me-img {
+  height: 73%;
+  width: 73%;
+  margin-left: 12%;
 }
