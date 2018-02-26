@@ -40,7 +40,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff;
-  font-size: 240%; /* 240% of the font-size set for html (20px in this case) */
+  font-size: 240%;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
@@ -99,12 +99,13 @@ h1 {
 }
 
 #about-me-text p {
+  font-size: 110%;
   text-indent: 15px;
   line-height: 145%;
 }
 
 #about-me-img {
-  height: 73%;
-  width: 73%;
-  margin-left: 12%;
+  height: 86%;
+  width: 86%;
+  margin-left: 7%;
 }
